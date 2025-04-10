@@ -1,0 +1,124 @@
+.textBlur {
+    color: transparent;
+    text-shadow: 0 0 1px #202122;
+}
+
+.bg-primary {
+    background-color: #ffffff !important; /* ขาวล้วน */
+    color: #212529 !important; /* ตัวหนังสือสีเทาเข้ม */
+}
+
+.display-4 {
+    font-size: calc(1.475rem + 2.7vw) !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    color: #dc3545 !important; /* แดงเน้น */
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+a {
+    color: #212529;
+}
+a:hover {
+    color: #dc3545 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+    margin-top: 0;
+}
+
+.log_Reg_Border {
+    border: 1px solid #dc3545;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
+.fa:hover {
+    color: #dc3545 !important;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.img-fluid {
+    height: 200px !important;
+    width: 100% !important;
+    margin-top: 0% !important;
+}
+
+.featurs .featurs-item .featurs-icon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.featurs .featurs-item .featurs-icon::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #dc3545;
+    position: absolute;
+    bottom: -10px;
+    transform: translate(-50%) rotate(45deg);
+}
+
+.text-primary {
+    color: #dc3545 !important;
+}
+
+.px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.border-secondary {
+    border-color: #dc3545 !important;
+}
+
+.nav-yellow {
+    background-color: #ffffff !important; /* แทน nav สีเหลืองด้วยขาว */
+    color: #212529 !important;
+}
+
+.menuOnLeft, .menuOnLeft2 {
+    background-color: #ffffff;
+    width: 280px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+}
+
+.menuOnLeft2 {
+    right: 100px;
+}
+
+.closeBtn {
+    font-size: 25px;
+    color: black;
+    margin-top: -56px;
+}
+
+#checkout {
+    background-color: transparent;
+    background-image: linear-gradient(226.69deg, #ffffff 38.63%, #ffe5e5 82.88%);
+}
+
+@media (min-width:375px) {
+    .productHeading ul {
+        flex-direction: column;
+    }
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20%;
+}
